@@ -1,0 +1,33 @@
+{
+  "name": "delilharesto",
+  "version": "1.0.0",
+  "description": "Funcionalidad de los endpoints que se necesitan para la operación de Delilah restó",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adsmart22/DelilhaResto.git"
+  },
+  "keywords": [
+    "api",
+    "delilahResto"
+  ],
+  "author": "Adriana Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adsmart22/DelilhaResto/issues"
+  },
+  "start": {
+    "scripts": "nodemon index.js"
+  },
+  "homepage": "https://github.com/Adsmart22/DelilhaResto#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "json-parser": "^3.1.2",
+    "mongoose": "^5.10.6",
+    "nodemon": "^2.0.4"
+  }
+}
